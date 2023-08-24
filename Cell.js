@@ -2,11 +2,11 @@ class Cell{
     constructor(){
         this.mark='E'
     }
-    markCell(symbol){
-        this.mark=symbol
-    }
     isEmpty(){
         return this.mark==='E'
+    }
+    markCell(symbol){
+        this.mark=symbol
     }
     getMark(){
         return this.mark
